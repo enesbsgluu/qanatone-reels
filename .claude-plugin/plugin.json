@@ -1,0 +1,10 @@
+{
+  "name": "qanatone-reels",
+  "description": "Kodla reels/kısa video üretim yetenekleri: senaryo, Türkçe seslendirme, three.js 3B ve canvas 2B sahne, Blender film, teslim denetimi, büyüme stratejisi.",
+  "version": "1.0.0",
+  "author": { "name": "QANATONE", "url": "https://www.qanatone.com" },
+  "homepage": "https://github.com/enesbsgluu/qanatone-reels",
+  "repository": "https://github.com/enesbsgluu/qanatone-reels",
+  "license": "MIT",
+  "keywords": ["reels", "video", "animation", "threejs", "blender", "tts", "turkish"]
+}

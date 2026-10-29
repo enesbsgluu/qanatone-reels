@@ -1,0 +1,78 @@
+{
+  "_": "Sahnenin tek kaynağı. Süreler saniye; seslendir.py bas/bit/sure alanlarını gerçek sesten yeniden yazar. kim: karakterler anahtarı. plan: 'genis', 'usta', 'cirak', 'kamera' (usta kameraya konuşur). Planlardaki 'satir' kesmeyi o satırın başına bağlar.",
+  "sure": 18.22,
+  "satirlar": [
+    {
+      "kim": "cirak",
+      "metin": "Usta, herkes video çekiyor. Neden bizimki izlenmiyor?",
+      "bas": 0.5,
+      "bit": 4.084,
+      "ton": "sabırsız, biraz sitemkâr"
+    },
+    {
+      "kim": "usta",
+      "metin": "Çünkü ilk üç saniyede bir soru sormuyorsun.",
+      "bas": 4.434,
+      "bit": 7.702,
+      "ton": "sakin, kesin"
+    },
+    {
+      "kim": "cirak",
+      "metin": "Soru mu? Ben cevap veriyorum ama.",
+      "bas": 8.052,
+      "bit": 10.374,
+      "ton": "şaşkın, itiraz eder gibi"
+    },
+    {
+      "kim": "usta",
+      "metin": "Cevabı kimse beklemez. Merakı herkes bekler.",
+      "bas": 10.724,
+      "bit": 14.61,
+      "ton": "yavaş, bilgece"
+    },
+    {
+      "kim": "usta",
+      "metin": "Sen de şu an bu yüzden buradasın.",
+      "bas": 14.96,
+      "bit": 17.221,
+      "ton": "kameraya dönerek, alçak sesle, hafif gülümseyerek"
+    }
+  ],
+  "planlar": [
+    {
+      "bas": 0.0,
+      "plan": "genis"
+    },
+    {
+      "satir": 2,
+      "bas": 4.284,
+      "plan": "usta"
+    },
+    {
+      "satir": 3,
+      "bas": 7.902,
+      "plan": "cirak"
+    },
+    {
+      "satir": 4,
+      "bas": 10.574,
+      "plan": "usta"
+    },
+    {
+      "satir": 5,
+      "bas": 14.81,
+      "plan": "kamera"
+    }
+  ],
+  "baglam": "Bu bir Türkçe kısa animasyon. Gece, yağmurlu bir çatıda bilge bir usta ile meraklı genç çırağı konuşuyor.",
+  "karakterler": {
+    "usta": {
+      "ses": "Charon",
+      "tarif": "ellili yaşlarda, alçak ve tok sesli, sakin, bilge, her kelimeyi tartarak konuşan bir adam"
+    },
+    "cirak": {
+      "ses": "Puck",
+      "tarif": "yirmili yaşlarda, hevesli, biraz sabırsız, meraklı bir genç"
+    }
+  }
+}

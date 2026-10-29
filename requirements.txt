@@ -1,0 +1,8 @@
+numpy
+scipy
+soundfile
+faster-whisper
+noisereduce
+demucs
+# Blender hattı (ornekler/onuncu-yil) için ek:
+# gradio_client huggingface_hub mediapipe pillow

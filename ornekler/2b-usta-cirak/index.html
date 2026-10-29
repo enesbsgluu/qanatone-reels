@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>QANATONE · 2B usta-çırak sahnesi</title>
+<style>
+  html,body{margin:0;height:100%;background:#0e0e0d;display:grid;place-items:center;font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif}
+  /* sahne her zaman 1080x1920 çizilir; önizlemede ekrana sığdırılır, çekimde birebir */
+  #kap{position:relative;width:1080px;height:1920px;transform-origin:center;overflow:hidden}
+  canvas{display:block}
+  #altyazi{position:absolute;left:90px;right:90px;bottom:330px;text-align:center;pointer-events:none}
+  #altyazi span{display:inline;padding:10px 22px;border-radius:14px;background:rgba(14,14,13,.72);color:#fff;
+    font-size:46px;line-height:1.5;font-weight:600;letter-spacing:-.01em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+  #altyazi span:empty{display:none}
+  body.cekim{display:block;background:none}
+</style>
+</head>
+<body>
+<div id="kap"><div id="altyazi"><span></span></div></div>
+<script type="module" src="./sahne.js"></script>
+</body>
+</html>

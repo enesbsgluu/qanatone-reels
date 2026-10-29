@@ -1,0 +1,17 @@
+{
+  "_": "Sahnenin tek kaynağı. Süreler saniye. kim: 'adam' ya da 'robot'. plan: 'genis', 'adam', 'robot' (kamera). Yeni replik eklerken bas/bit çakışmasın.",
+  "sure": 10.5,
+  "satirlar": [
+    { "kim": "robot", "metin": "Yorumuna “animasyon” yazdın, değil mi?", "bas": 0.6, "bit": 2.6 },
+    { "kim": "adam", "metin": "Yazdım. Rehber nerede?", "bas": 2.9, "bit": 4.4 },
+    { "kim": "robot", "metin": "Şu an izlediğin sahne rehberin kendisi.", "bas": 4.7, "bit": 7.2 },
+    { "kim": "adam", "metin": "O zaman ben de bir tane yaparım.", "bas": 7.5, "bit": 9.4 }
+  ],
+  "planlar": [
+    { "bas": 0.0, "plan": "genis" },
+    { "bas": 2.8, "plan": "adam" },
+    { "bas": 4.6, "plan": "robot" },
+    { "bas": 7.4, "plan": "adam" },
+    { "bas": 9.5, "plan": "genis" }
+  ]
+}

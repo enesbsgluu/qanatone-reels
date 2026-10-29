@@ -1,0 +1,11 @@
+{
+  "name": "qanatone-reels",
+  "owner": { "name": "QANATONE", "url": "https://www.qanatone.com" },
+  "plugins": [
+    {
+      "name": "qanatone-reels",
+      "source": "./",
+      "description": "Kodla reels/kısa video üretim yetenekleri: senaryo, ses, 3B/2B sahne, Blender film, teslim, büyüme."
+    }
+  ]
+}

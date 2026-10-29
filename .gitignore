@@ -1,0 +1,17 @@
+node_modules/
+cikti/
+__pycache__/
+*.blend
+*.blend1
+*.glb
+*.wav
+*.mp4
+*.m4a
+*.webm
+ornekler/onuncu-yil/kaynak/*
+!ornekler/onuncu-yil/kaynak/indir.sh
+ornekler/onuncu-yil/ayir/
+ornekler/onuncu-yil/blender/kare/
+ornekler/onuncu-yil/heykel/uretim/*.png
+ornekler/onuncu-yil/logo/*
+ornekler/onuncu-yil/yazitipi/*.ttf

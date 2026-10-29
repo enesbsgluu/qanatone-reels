@@ -1,0 +1,17 @@
+{
+  "name": "qanatone-reels",
+  "version": "1.0.0",
+  "description": "Yapay zekâ ile kodla reels üretim hattı: senaryo, ses, 3B/2B sahne, kare kare çekim, teslim denetimi. Claude Code skill paketi.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "onizle:3b": "node araclar/cek.mjs ornekler/3b-baslangic --onizle",
+    "cek:3b": "node araclar/cek.mjs ornekler/3b-baslangic",
+    "onizle:2b": "node araclar/cek.mjs ornekler/2b-usta-cirak --onizle",
+    "cek:2b": "node araclar/cek.mjs ornekler/2b-usta-cirak"
+  },
+  "dependencies": {
+    "puppeteer": "23.11.1"
+  },
+  "license": "MIT"
+}
